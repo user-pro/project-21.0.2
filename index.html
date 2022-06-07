@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--fonts-->
+
+   <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/header-footer.css">
+
+
+   <title>Document</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <input title="t" placeholder="" id="header-check" class="header-burger__checkbox header-burger"
+            type="checkbox">
+         <label for="header-check" class="header__burger header-burger">
+            <span></span>
+         </label>
+         <div class="header__rates header-rates header-rates_desktop">
+            <div class="header-rates__exchange header-exchange">
+               <div class="header-exchange__image">
+                  <picture>
+                     <source srcset="img/gst-exchange.webp" type="image/webp"><img src="img/gst-exchange.png"
+                        alt="gst token">
+                  </picture>
+               </div>
+               <div class="header-exchange__name">GST:</div>
+               <div class="header-exchange__rate">₽152.74</div>
+            </div>
+            <div class="header-rates__exchange header-exchange">
+               <div class="header-exchange__image">
+                  <picture>
+                     <source srcset="img/sol-exchange.webp" type="image/webp"><img src="img/sol-exchange.png"
+                        alt="solana token">
+                  </picture>
+               </div>
+               <div class="header-exchange__name">SOL:</div>
+               <div class="header-exchange__rate">₽2,852.90</div>
+            </div>
+            <div class="header-rates__exchange header-exchange">
+               <div class="header-exchange__image">
+                  <picture>
+                     <source srcset="img/bnb-exchange.webp" type="image/webp"><img src="img/bnb-exchange.png"
+                        alt="bnb token">
+                  </picture>
+               </div>
+               <div class="header-exchange__name">BNB:</div>
+               <div class="header-exchange__rate">₽19,113.39</div>
+            </div>
+         </div>
+
+         <div class="header__logo header-logo">
+            <a href="index.html" class="header-logo__link">
+               <picture>
+                  <source srcset="img/header-logo.svg" type="image/webp"><img src="img/header-logo.svg" alt="logotype">
+               </picture>
+            </a>
+         </div>
+         <nav class="header__menu header-bottom__menu">
+            <ul class="header__list">
+               <li><a href="#" class="header__link">Home</a></li>
+               <li><a href="#" class="header__link">Stats</a></li>
+               <li><a href="#" class="header__link">New pool</a></li>
+               <li><a href="#" class="header__link">
+                     <picture>
+                        <source srcset="img/telegram-icon.svg" type="image/webp"><img src="img/telegram-icon.svg"
+                           alt="telegram link">
+                     </picture>
+                  </a></li>
+            </ul>
+            <div class="header__rates header-rates header-rates_mobile">
+               <div class="header-rates__exchange header-exchange">
+                  <div class="header-exchange__image">
+                     <picture>
+                        <source srcset="img/gst-exchange.webp" type="image/webp"><img src="img/gst-exchange.png"
+                           alt="gst token">
+                     </picture>
+                  </div>
+                  <div class="header-exchange__name">GST:</div>
+                  <div class="header-exchange__rate">₽152.74</div>
+               </div>
+               <div class="header-rates__exchange header-exchange">
+                  <div class="header-exchange__image">
+                     <picture>
+                        <source srcset="img/sol-exchange.webp" type="image/webp"><img src="img/sol-exchange.png"
+                           alt="solana token">
+                     </picture>
+                  </div>
+                  <div class="header-exchange__name">SOL:</div>
+                  <div class="header-exchange__rate">₽2,852.90</div>
+               </div>
+               <div class="header-rates__exchange header-exchange">
+                  <div class="header-exchange__image">
+                     <picture>
+                        <source srcset="img/bnb-exchange.webp" type="image/webp"><img src="img/bnb-exchange.png"
+                           alt="bnb token">
+                     </picture>
+                  </div>
+                  <div class="header-exchange__name">BNB:</div>
+                  <div class="header-exchange__rate">₽19,113.39</div>
+               </div>
+            </div>
+         </nav>
+         <div class="header-actions header__actions">
+            <div class="header-actions__language header-action">
+               <picture>
+                  <source srcset="img/header-actions-language.svg" type="image/webp"><img
+                     src="img/header-actions-language.svg" alt="planet icon">
+               </picture>
+               <p class="header-actions__text">EN</p>
+            </div>
+            <div class="header-actions__user header-action">
+               <picture>
+                  <source srcset="img/header-user-icon.svg" type="image/webp"><img src="img/header-user-icon.svg"
+                     alt="user icon">
+               </picture>
+               <p class="header-actions__text">Login</p>
+            </div>
+         </div>
+      </div>
+   </header>
+   <section class="welcome">
+      <div class="container">
+         <div class="welcome-content welcome__content">
+            <div class="welcome-content__image">
+               <picture>
+                  <source srcset="img/welcome-block-image.webp" type="image/webp"><img src="img/welcome-block-image.png"
+                     alt="welcome image">
+               </picture>
+            </div>
+            <div class="welcome-content__text welcome-text">
+               <h2 class="welcome-text__subtitle">WELCOME
+                  TO OUR TEAM</h2>
+               <h1 class="welcome-text__title">Steppool</h1>
+               <p class="welcome-text__paragraph">StepnPool works like a GST factory. All the money invested by users
+                  are immediately used to buy sneakers and at the same time, they work to generate more profit. </p>
+               <button class="welcome-text__btn btn-1">start</button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="about">
+      <div class="container">
+         <div class="about__content">
+            <div class="about__text about-text">
+               <h3 class="section-subtitle about-text__subtitle">about company</h3>
+               <h2 class="about-text__title section-title">What is STEPPOOL?</h2>
+               <p class="about-text__paragraph">StepnPool is a platform that unites forces and focuses them together to
+                  achieve success. This project is made by a team of sports runners who bring the opportunity to help
+                  anyone to enjoy the magic of the Stepn project. We all know that in order to become a Stepn member we
+                  must have a certain amount of money that most of us cannot afford. With StepnPool it is possible now.
+               </p>
+               <button type="button" class="about-text__btn">
+                  Show more <picture>
+                     <source srcset="img/about-bottom-arrow-icon.svg" type="image/webp"><img
+                        src="img/about-bottom-arrow-icon.svg" alt="arrow">
+                  </picture>
+               </button>
+            </div>
+            <div class="about__pluses about-pluses">
+               <div class="about-pluses__item about-plus">
+                  <picture>
+                     <source srcset="img/about-plus-image-1.svg" type="image/webp"><img class="about-plus__image"
+                        src="img/about-plus-image-1.svg" alt="plus image">
+                  </picture>
+                  <div class="about-plus__text about-plus-text">
+                     <h4 class="about-plus-text__title">START STEPN CAREER WITH US NOW</h4>
+                     <p class="about-plus-text__paragraph">
+                        Don't stay away from big profit. With us you can start your career in stepn from a minimal
+                        investment today.</p>
+                  </div>
+               </div>
+               <div class="about-pluses__item about-plus">
+                  <picture>
+                     <source srcset="img/about-plus-image-2.svg" type="image/webp"><img class="about-plus__image"
+                        src="img/about-plus-image-2.svg" alt="plus image">
+                  </picture>
+                  <div class="about-plus__text about-plus-text">
+                     <h4 class="about-plus-text__title">THE FASTEST WAY TO SUCCESS</h4>
+                     <p class="about-plus-text__paragraph">
+                        We offer you the opportunity to enjoy the hot project Stepn, even if you do not have enough
+                        money to buy the first sneakers.</p>
+                  </div>
+               </div>
+               <div class="about-pluses__item about-plus">
+                  <picture>
+                     <source srcset="img/about-plus-image-3.svg" type="image/webp"><img class="about-plus__image"
+                        src="img/about-plus-image-3.svg" alt="plus image">
+                  </picture>
+                  <div class="about-plus__text about-plus-text">
+                     <h4 class="about-plus-text__title">ACHIEVE YOUR PERFECT BODY</h4>
+                     <p class="about-plus-text__paragraph">
+                        StepnPool is the platform that offers the chance to start a healthier and richer life with the
+                        Stepn community.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <main class="main-inf">
+      <section class="how-it-works">
+         <div class="container">
+            <div class="how-it-works__title-block">
+               <h3 class="how-it-works__subtitle section-subtitle">FOLLOWING THE STEPS</h3>
+               <h2 class="how-it-works__title section-title">HOW IT'S WORK?</h2>
+            </div>
+            <div class="how-it-works__steps">
+               <div class="how-it-works__step hiw-step">
+                  <div class="hiw-step__number">
+                     <p>01</p>
+                  </div>
+                  <h5 class="hiw-step__title">SIGNUP</h5>
+                  <p class="hiw-step__text">Create an StepnPool account to take advantage of all the options and
+                     services we offer and welcome on board.</p>
+               </div>
+               <div class="how-it-works__step hiw-step">
+                  <div class="hiw-step__number">
+                     <p>02</p>
+                  </div>
+                  <h5 class="hiw-step__title">MAKE DEPOSIT</h5>
+                  <p class="hiw-step__text">Open a deposit starting with a minimum amount of $10 to become an active
+                     member and receive a profit from the next day.</p>
+               </div>
+               <div class="how-it-works__step hiw-step">
+                  <div class="hiw-step__number">
+                     <p>03</p>
+                  </div>
+                  <h5 class="hiw-step__title">WITHDRAW PROFIT</h5>
+                  <p class="hiw-step__text">You will receive the daily profit you deserve. In order to withdraw the
+                     daily profit, you must log in and access the withdrawal page.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="earnings">
+         <div class="container">
+            <div class="earnings__content earnings-content">
+               <div class="earnings-content__text-block ec-text-block">
+                  <div class="ec-text-block__top ec-top-text">
+
+                     <div class="ec-top-text__title">
+                        <h3 class="section-subtitle ec-top-text__subtitle">DAILY EARNINGS</h3>
+                        <h2 class="section-title ec-top-text__main-title">STEPNPOOL REWARDS</h2>
+                     </div>
+                     <p class="ec-top-text__paragraph">
+                        StepnPool works like a GST factory. All the money invested by users are immediately used to buy
+                        sneakers and at the same time, they work to generate more profit. The StepnPool team will
+                        monitor these Stepn accounts daily and will generate more and more profit. Each day, the
+                        StepnPool team will produce a financial report and based on this report, the profit percentage
+                        for that day will be determined. The daily profit depends on the profit of the StepnPool team
+                        which was generated on the same day in the Stepn platform.
+                     </p>
+                  </div>
+                  <div class="ec-bottom-text ec-text-block__bottom">
+                     <h3 class="ec-bottom-text__subtitle section-subtitle">FOR EXAMPLE</h3>
+                     <p class="ec-bottom-text__paragraph">You have $100, you need at least one sneaker to participate in
+                        Stepn, but one sneaker costs about $800-$1000 and you really want to be part of the stepn
+                        community. You delegate that $100 to the StepnPool team, and then the other members do the same
+                        as you. The StepnPool team uses delegated money to buy sneakers and create accounts that will
+                        bring daily profit. Having received the first profit, the StepnPool team shares it with the
+                        participants of the platform.
+
+                     </p>
+                     <p class="ec-bottom-text__paragraph">
+                        The StepnPool team takes a 10% maintenance fee and distributes the remainder equally among all
+                        platform members according to the amount contributed by the member. The profit is calculated
+                        daily and is distributed to all members. For more details about profit reward algorithm, view
+                        LitePaper below.
+                     </p>
+                  </div>
+               </div>
+               <div class="earnings-content__image">
+                  <picture>
+                     <source srcset="img/earnings-content-image.webp" type="image/webp"><img
+                        src="img/earnings-content-image.png" alt=" content image">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="conditions">
+         <div class="container">
+            <div class="conditions__conetnt">
+               <div class="condition condition_1">
+                  <picture>
+                     <source srcset="img/condition-image-1.svg" type="image/webp"><img class="condition__image"
+                        src="img/condition-image-1.svg" alt="condition image 1">
+                  </picture>
+                  <div class="condition__title-block">
+                     <h4 class="condition__subtitle section-subtitle">minimum deposit</h4>
+                     <h3 class="condition__title section-title">100$</h3>
+                  </div>
+                  <p class="condition__paragraph">You delegate that $100 to the StepnPool team, and then the other
+                     members do the same as you.</p>
+               </div>
+               <div class="condition condition_2">
+                  <picture>
+                     <source srcset="img/condition-image-2.svg" type="image/webp"><img class="condition__image"
+                        src="img/condition-image-2.svg" alt="condition image 2">
+                  </picture>
+                  <div class="condition__title-block">
+                     <h4 class="condition__subtitle section-subtitle">commission</h4>
+                     <h3 class="condition__title section-title">10%</h3>
+                  </div>
+                  <p class="condition__paragraph">We takes a 10% maintenance fee and distributes the remainder equally
+                     among all platform members.</p>
+               </div>
+               <div class="condition condition_3">
+                  <picture>
+                     <source srcset="img/condotion-image-3.svg" type="image/webp"><img class="condition__image"
+                        src="img/condotion-image-3.svg" alt="condition image 3">
+                  </picture>
+                  <div class="condition__title-block">
+                     <h4 class="condition__subtitle section-subtitle">payments</h4>
+                     <h3 class="condition__title section-title">everyday</h3>
+                  </div>
+                  <p class="condition__paragraph">The profit from the pool is calculated daily and distributed among all
+                     participants.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="calculator">
+         <div class="container">
+            <div class="calculator__content">
+               <div class="calculator__image calculator__image_desktop">
+                  <picture>
+                     <source srcset="img/calculator-image.webp" type="image/webp"><img src="img/calculator-image.png"
+                        alt="calc image">
+                  </picture>
+               </div>
+               <div class="calculator__actions calculator-actions">
+                  <div class="calculator-actions__text ca-text-block">
+                     <div class="ca-text-block__title">
+                        <h3 class="ca-text-block__subtitle section-subtitle">calculate income</h3>
+                        <h2 class="ca-text-block__main-title section-title">calculator</h2>
+                     </div>
+                     <p class="ca-text-block__paragrath">StepnPool is a platform that unites forces and focuses them
+                        together to achieve success. This project is made by a team of sports runners who bring the
+                        opportunity to help anyone to enjoy the magic of the Stepn project.</p>
+                  </div>
+                  <div class="calculator__image calculator__image_mobile">
+                     <picture>
+                        <source srcset="img/calculator-image.webp" type="image/webp"><img src="img/calculator-image.png"
+                           alt="calc image">
+                     </picture>
+                  </div>
+                  <form action="" class="calculator-actions__form ca-form">
+                     <input type="text" placeholder="Enter deposit amount" class="ca-form__input">
+                     <button type="button" class="ca-form__button btn-1">Сount up</button>
+                  </form>
+                  <div class="calculator-actions__results ca-results">
+                     <h4 class="ca-results__title section-subtitle">Calculation for a deposit of $100:</h4>
+                     <div class="ca-results__row">
+                        <p>Income per day:</p> <span>3$</span>
+                     </div>
+                     <div class="ca-results__row">
+                        <p>Income per month:</p> <span>300$</span>
+                     </div>
+                     <div class="ca-results__row">
+                        <p>Payback period:</p> <span>2 months</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="lets-start">
+         <div class="lets-start__contaner">
+            <h2 class="lets-start__title">what are you waiting for?<br>
+               Let's start</h2>
+            <button class="lets-start__button btn-1">start now</button>
+         </div>
+      </section>
+   </main>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__content footer-content">
+            <div class="footer-content__text">
+               <a href="#" class="footer-content__logo">
+                  <picture>
+                     <source srcset="img/footer-logo.svg" type="image/webp"><img src="img/footer-logo.svg"
+                        alt="footer logo">
+                  </picture>
+               </a>
+               <p class="footer-content__paragraph">StepnPool is a platform that unites forces and focuses them together
+                  to
+                  achieve success.</p>
+               <div class="footer-content__rates footer-rates footer-rates_mobile">
+                  <div class="footer-rates__item footer-rate">
+                     <picture>
+                        <source srcset="img/gst-exchange.webp" type="image/webp"><img src="img/gst-exchange.png"
+                           alt="gst">
+                     </picture>
+                     <p class="footer-rate__name">GST:</p>
+                     <p class="footer-rate__price">₽152.74</p>
+                  </div>
+                  <div class="footer-rates__item footer-rate">
+                     <picture>
+                        <source srcset="img/sol-exchange.webp" type="image/webp"><img src="img/sol-exchange.png"
+                           alt="solana">
+                     </picture>
+                     <p class="footer-rate__name">SOL:</p>
+                     <p class="footer-rate__price">₽2,852.90</p>
+                  </div>
+                  <div class="footer-rates__item footer-rate">
+                     <picture>
+                        <source srcset="img/bnb-exchange.webp" type="image/webp"><img src="img/bnb-exchange.png"
+                           alt="gst">
+                     </picture>
+                     <p class="footer-rate__name">BNB:</p>
+                     <p class="footer-rate__price">₽19,113.39</p>
+                  </div>
+               </div>
+            </div>
+            <nav class="footer-content__menu footer-menu">
+               <li><a href="#" class="footer-menu__link">
+                     <picture>
+                        <source srcset="img/telegram-icon.svg" type="image/webp"><img src="img/telegram-icon.svg"
+                           alt="telegram">
+                     </picture>
+                  </a></li>
+               <li><a href="#" class="footer-menu__link">Home</a></li>
+               <li><a href="#" class="footer-menu__link">Stats</a></li>
+               <li><a href="#" class="footer-menu__link">New pool</a></li>
+               <li><a href="#" class="footer-menu__link">Login</a></li>
+            </nav>
+            <div class="footer-content__rates footer-rates footer-rates_desk">
+               <div class="footer-rates__item footer-rate">
+                  <picture>
+                     <source srcset="img/gst-exchange.webp" type="image/webp"><img src="img/gst-exchange.png" alt="gst">
+                  </picture>
+                  <p class="footer-rate__name">GST:</p>
+                  <p class="footer-rate__price">₽152.74</p>
+               </div>
+               <div class="footer-rates__item footer-rate">
+                  <picture>
+                     <source srcset="img/sol-exchange.webp" type="image/webp"><img src="img/sol-exchange.png"
+                        alt="solana">
+                  </picture>
+                  <p class="footer-rate__name">SOL:</p>
+                  <p class="footer-rate__price">₽2,852.90</p>
+               </div>
+               <div class="footer-rates__item footer-rate">
+                  <picture>
+                     <source srcset="img/bnb-exchange.webp" type="image/webp"><img src="img/bnb-exchange.png" alt="gst">
+                  </picture>
+                  <p class="footer-rate__name">BNB:</p>
+                  <p class="footer-rate__price">₽19,113.39</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="https://cdn.polyfill.io/v2/polyfill.js?features=Element.prototype.classList"></script>
+   <script src="https://unpkg.com/focus-visible"></script>
+</body>
+
+</html>
